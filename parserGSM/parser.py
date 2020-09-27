@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup as beautifulsoup
 class ParseGSM:
     max_page = 72
     pages = []
-    host = "https://www.gsmarena.com"
+    host = "https://www.gsmarena.com/"
     url = "https://www.gsmarena.com/reviews.php3"
 
     last_title = ""
